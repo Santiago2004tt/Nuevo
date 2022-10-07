@@ -1,0 +1,14 @@
+package panaderia.test;
+
+import panaderia.model.Panaderia;
+import panaderia.model.Panes;
+
+public class Main {
+	static Panaderia panaderia = new Panaderia("la panaderia tt", "en una casa #3");
+	
+	public static void main(String[] args) {
+		
+		Panes pan1 = new Panes('m', 2000, 1, "queso");
+	}
+
+}

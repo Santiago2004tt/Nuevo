@@ -1,0 +1,23 @@
+package panaderia.test;
+
+
+import junit.framework.TestCase;
+import panaderia.model.Panaderia;
+import panaderia.model.Panes;
+
+public class Main extends TestCase {
+	static Panaderia panaderia = new Panaderia("la panaderia tt", "en una casa #3");
+	
+	public static void main(String[] args) {
+		
+		Panes pan1 = new Panes('m', 2000, 1, "queso");
+		Panes pan2 = new Panes('m', 2000, 1, "queso");	
+		String mensaje = panaderia.crearPan(pan1);
+		String mensaje2 = panaderia.crearPan(pan2);
+		//Panes panBuscado = panaderia.buscarPan("queso");// duda me da error por el throw
+		
+		System.out.println(mensaje);
+		System.out.println(mensaje2);
+	}
+
+}

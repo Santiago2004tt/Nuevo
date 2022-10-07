@@ -1,0 +1,9 @@
+package panaderia.exceptions;
+
+public class PanException extends Exception {
+	
+	public PanExeption(String mensaje){
+		super(mensaje);
+	}
+
+}

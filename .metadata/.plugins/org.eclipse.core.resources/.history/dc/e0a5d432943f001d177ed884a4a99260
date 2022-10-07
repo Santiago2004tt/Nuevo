@@ -1,0 +1,9 @@
+package panaderia.model;
+
+public class Panes {
+	
+	private char tamanio;
+	private double precio;
+	private int cantidad;
+	private String tipo;
+}

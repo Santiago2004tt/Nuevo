@@ -1,0 +1,11 @@
+package panaderia.model;
+
+import java.util.ArrayList;
+
+public class Panaderia {
+	
+	private String nombre;
+	private String direccion;
+	private ArrayList <Panes> listaPanes= new ArrayList<Panes>(); 
+
+}

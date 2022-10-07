@@ -1,0 +1,7 @@
+package panaderia.exceptions;
+
+public class PanException extends Exception {
+	
+	
+
+}
